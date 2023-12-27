@@ -1,0 +1,11 @@
+env: test
+release:
+  account:
+    pwd: tester
+    user: tester
+  host: https://api.pity.fun
+test:
+  account:
+    pwd: tester
+    user: tester
+  host: https://api.pity.fun

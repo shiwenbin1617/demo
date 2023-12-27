@@ -1,0 +1,40 @@
+testcase_class_name: 'TEST_BAIDU'
+description: ''
+testcase_name: 'test_baidu'
+steps:
+- class_name: 'BAIDU'
+  method_name: 'OPTIONSpcsearch'
+  request:
+    api_path: /mcp/pc/pcsearch/
+    method: OPTIONS
+    headers:
+      Host: ug.baidu.com
+      Accept: '*/*'
+      Access-Control-Request-Method: POST
+      Access-Control-Request-Headers: content-type
+  response: null
+- class_name: 'BAIDU'
+  method_name: 'GETgif'
+  request:
+    api_path: /v.gif/
+    method: GET
+    params:
+      logFrom: searchlist
+      ct: '2'
+      sid: '39316_39396_39419_39497_39512_39475_39234_39403_39467_26350_39425'
+      ssid: ''
+      logid: ''
+      tid: '11545'
+      logInfo: tts_show
+      cst: '1'
+      logExtra: '{"type":"tts_player_show","value":""}'
+      r: '1697681539739'
+    headers:
+      Host: hpd.baidu.com
+      Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+      Cookie: PSTM=1697550494; BAIDUID=BD137D5FC08F05E311C58473C8E80024:FG=1; BAIDUID_BFESS=BD137D5FC08F05E311C58473C8E80024:FG=1;
+        ZFY=oFN1bCusZMl:AofBlATLCDIQxFdvnVvJwCi0Js6nmabo:C; BDORZ=B490B5EBF6F3CD402E515D22BCDA1598;
+        BA_HECTOR=00a004al818la58g018h05271ij0tfq1o; ET_WHITELIST=etwhitelistintwodays;
+        BIDUPSID=A06FE08461064C7636379CC8DE7835E1; delPer=0; PSINO=6; H_PS_PSSID=39316_39396_39419_39497_39512_39475_39234_39403_39467_26350_39425
+  response:
+    error: '0'
