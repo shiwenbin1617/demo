@@ -1,11 +1,12 @@
 env: test
-release:
-  account:
-    pwd: tester
-    user: tester
-  host: https://api.pity.fun
 test:
   account:
     pwd: tester
     user: tester
-  host: https://api.pity.fun
+  host: http://192.168.0.212:8990
+
+#test:
+#  account:
+#    pwd: tester
+#    user: tester
+#  host: https://api.pity.fun

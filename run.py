@@ -46,8 +46,8 @@ from samaker.utils.gen_allure_report import CaseSummary
 from login import Login
 
 if __name__ == '__main__':
-    run(['-m case'], login=Login())
+    # run(['-m case'], login=Login())
+    threads_run(["-m case", "-m smoke"], login=Login())
     test_results = CaseSummary().results
 
     print(test_results)
-

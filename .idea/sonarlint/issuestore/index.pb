@@ -21,8 +21,6 @@ E
 apis/user.py,0/0/00c8f8b372da73d2c8d62ac325aa493d4676947b
 I
 business/case_business.py,0/5/055effd06af8f9a1076fc0373b6732b04c1be6da
-A
-conf/aomaker.yaml,1/4/148479daa8fdb096b52d0c0d2d8ddf081abac2c1
 @
 conf/config.yaml,5/c/5c041c13f8a06a1061b5bca5cce0364ffc3d4daf
 ?
@@ -59,8 +57,6 @@ B
 yamlcase/test.yaml,9/e/9efb91d4609903dad221c8d0afecb521f2ac1200
 <
 logs/log.log,5/5/556ba4b2b1dccf4c3c379694e46cd98762049bab
-C
-database/aomaker.db,2/3/23b6a5ccc640c239e71d9a6ee46cf4204032c841
 E
 testcases/__init__.py,e/1/e12798445fd9953c41adeda401f828c64d390519
 A
@@ -73,13 +69,3 @@ O
 testcases/test_api/logs/log.log,9/c/9cba516c2c1735604b20ead081eec004916e1185
 S
 #reports/json/environment.properties,d/3/d39f3280bbdc75d63f628d318c77be01aab213be
-q
-Areports/json/f4120914-8a3e-4b02-8fab-cd2df4b76222-attachment.json,5/7/5777abfdf88bea251c1a5e6489d21e17c1cb0051
-p
-@reports/json/ef82db93-6730-4681-989e-096c16c83551-container.json,f/3/f384b9d00e326e8bc54ef0cb128aac3dcd5e224d
-p
-@reports/json/e2b15216-1a8f-47f6-a165-dd95ae94c007-attachment.txt,5/1/511f64dbf4a47365f9ed0f1820ec04a80d3854ae
-q
-Areports/json/0ade2aff-9785-448f-953d-d6ebb56c1b1d-attachment.json,c/a/cabe2edf3cb3a35800d920473eaf4b1f361182d0
-p
-@reports/json/1cb33be3-dfb4-48ba-8064-075656f64665-attachment.txt,9/3/93cda48a95e6f15bc039c985d628ccf7c2499e91
