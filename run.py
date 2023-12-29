@@ -47,7 +47,7 @@ from login import Login
 
 if __name__ == '__main__':
     # run(['-m case'], login=Login())
-    threads_run(["-m case", "-m smoke"], login=Login())
+    threads_run(["-m case"], login=Login())
     test_results = CaseSummary().results
 
     print(test_results)

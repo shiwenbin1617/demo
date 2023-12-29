@@ -1,0 +1,11 @@
+search:
+  search_data:
+    - name: "贴纸"
+    - name: "方正奶油体"
+  search_limit:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6

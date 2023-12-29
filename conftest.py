@@ -5,4 +5,5 @@ import pytest
 def clear_resource():
     yield
     import apis
-    apis.case_obj.delete_case()
+    # apis.case_obj.delete_case()
+    pass
